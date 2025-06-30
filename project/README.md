@@ -1,55 +1,38 @@
-# Tavus Vibecode Quickstart
+# 🌐 FinIQ.ai – Your Personal Financial Mentor & CA Assistant
 
-## 🚀 Introduction
+FinIQ.ai is a futuristic, AI-powered financial mentor and chartered accountant assistant built for modern users who want smarter, faster, and more intuitive financial guidance. Designed with a sleek dystopian UI and backed by real-time intelligence, FinIQ.ai empowers individuals to manage, understand, and elevate their financial life like never before.
 
-The fastest way to get started vibecoding with Tavus CVI. This React quickstart template provides everything you need to create interactive video experiences powered by Tavus's Conversational Video Interface technology.
 
-> ⚠️ **Important Note**: This is a development template only. For production use, you must:
-> - Never expose your Tavus API keys in the frontend
-> - Implement a secure backend service to handle API calls
-> - Use environment variables and proper key management
-> - Follow security best practices for handling sensitive credentials
 
-<br></br>
+---
+
+## 🚀 Features
+
+- 💡 **AI Financial Mentor** – Chat with a smart assistant powered by Gemini API
+- 🔐 **Supabase Auth** – Google-based authentication and secure user management
+- 📈 **Finance Dashboard** – Get a snapshot of your financial health
+- 📰 **Latest Finance News** – Stay updated with curated financial news feeds
+- 🗂️ **Smart File Uploader** – Upload tax docs, bank PDFs, and more
+- 🎓 **Finance Tutor (ElevenLabs)** – AI-generated voice lessons on financial concepts
+- 📹 **Tavus Video Assistant** *(in progress)* – Personalized video-call experience
+- 🌗 **Dark/Light Mode Toggle** – Futuristic design with full theme switcher
+- 🧑‍💼 **Profile Settings** – Manage account and preferences
+- 📤 **Deployment** – Hosted seamlessly on Netlify
+- 🌍 **Custom Domain** – Branded at [FinIQ.ai](https://www.finiq.ai) using IONOS via Entri
+
+---
+
 ## 🛠️ Tech Stack
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-<br></br>
-## 🧑‍💻 Try it Live
-Spin up this template in under a minute with StackBlitz:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Tavus-Engineering/tavus-vibecode-quickstart?file=src%2FApp.tsx)
+| Tool/Service     | Purpose                                |
+|------------------|----------------------------------------|
+| 🧠 **Gemini API**     | AI-powered financial conversation assistant |
+| 🔐 **Supabase**       | Auth + PostgreSQL Database              |
+| 🔊 **ElevenLabs API** | Realistic text-to-speech financial tutoring |
+| 🌐 **Netlify**        | Hosting and CI/CD pipeline              |
+| 🌍 **IONOS + Entri**  | Custom domain `FinIQ.ai`                |
+| 🧠 **ChatGPT**        | Brainstorming and ideation              |
 
-<br></br>
-## ⚡ Quick Start
+---
 
-1. **Get your API credentials:**
-   - Create an account on [Tavus Platform](https://platform.tavus.io/api-keys)
-   - Generate your API token
 
-2. **Run the template:**
-   ```bash
-   npm install
-   npm run dev
-   ```
-
-3. **Customize your persona:**
-   - Update the `persona_id` in `createConversation.ts` with your own
-   - Learn how to [create your own persona](https://docs.tavus.io/sections/conversational-video-interface/creating-a-persona) on the [Tavus Platform](https://platform.tavus.io/)
-
-   ```typescript
-   body: JSON.stringify({
-     persona_id: "your_persona_id_here",
-   }),
-   ```
-
-<br></br>
-## 📚 Resources
-
-- [Tavus Documentation](https://docs.tavus.io/)
-- [API Reference](https://docs.tavus.io/api-reference/)
-- [Tavus Platform](https://platform.tavus.io/)
-- [Daily React Reference](https://docs.daily.co/reference/daily-react)
